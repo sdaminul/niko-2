@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create Account — HaatBazar</title><meta name="description" content="HaatBazar">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.5"></script><script src="js/tailwind.config.js"></script>
+<link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body class="bg-white">
+
+<div class="min-h-screen grid lg:grid-cols-2">
+<div class="hidden lg:flex flex-col justify-between p-10 ph ph-a grid-noise text-white relative">
+<a href="index.html" class="relative z-10 flex items-center gap-2.5">
+<span class="w-9 h-9 rounded-xl bg-white/15 grid place-items-center"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 14H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+<span class="font-display text-[19px] font-extrabold tracking-tight">HaatBazar</span></a>
+<div class="relative z-10 max-w-md">
+<h2 class="font-display text-[32px] font-extrabold leading-tight tracking-tight mb-3">Create your free HaatBazar account</h2>
+<p class="text-[14px] text-white/80 leading-relaxed mb-7">Shop from 48,000 sellers and book 132,000 verified service providers — all from one login.</p>
+<div class="space-y-3.5"><div class="flex gap-3"><span class="w-8 h-8 rounded-lg bg-white/15 grid place-items-center shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13"/><path d="M8 8a2.5 2.5 0 1 1 4-2 2.5 2.5 0 1 1 4 2"/></svg></span><div><p class="text-[13.5px] font-bold">৳500 welcome voucher</p><p class="text-[12px] text-white/70">Applied automatically to your first order</p></div></div><div class="flex gap-3"><span class="w-8 h-8 rounded-lg bg-white/15 grid place-items-center shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.6-7-9.5A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.5C19 15.4 12 20 12 20z"/></svg></span><div><p class="text-[13.5px] font-bold">Wishlist & alerts</p><p class="text-[12px] text-white/70">Save items and get price-drop alerts</p></div></div><div class="flex gap-3"><span class="w-8 h-8 rounded-lg bg-white/15 grid place-items-center shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H14a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></svg></span><div><p class="text-[13.5px] font-bold">Order tracking</p><p class="text-[12px] text-white/70">Follow every parcel and booking live</p></div></div></div></div>
+<div class="relative z-10 flex items-center gap-5 text-[12px] text-white/70">
+<div><p class="font-display text-[19px] font-extrabold text-white">1.2M+</p><p>Products</p></div><div><p class="font-display text-[19px] font-extrabold text-white">132k+</p><p>Providers</p></div><div><p class="font-display text-[19px] font-extrabold text-white">4.8/5</p><p>App rating</p></div></div></div>
+<div class="flex items-center justify-center p-5 sm:p-8 bg-white">
+<div class="w-full max-w-[420px]">
+<a href="index.html" class="lg:hidden flex items-center gap-2.5 mb-7">
+<span class="w-9 h-9 rounded-xl bg-brand-500 text-white grid place-items-center"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 14H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+<span class="font-display text-[19px] font-extrabold tracking-tight">HaatBazar</span></a>
+
+<h1 class="font-display text-[26px] font-extrabold tracking-tight mb-1.5">Create an account</h1>
+<p class="text-[13.5px] text-ink-500 mb-6">Already registered? <a href="login.html" class="link">Sign in instead</a></p>
+<form class="space-y-4">
+<div class="grid sm:grid-cols-2 gap-4">
+<div><label class="label">First name <span class="req">*</span></label><input class="input" placeholder="Nusrat"></div>
+<div><label class="label">Last name <span class="req">*</span></label><input class="input" placeholder="Ahmed"></div></div>
+<div><label class="label">Mobile number <span class="req">*</span></label><div class="input-affix"><span class="affix">+880</span><input class="input" placeholder="1XXXXXXXXX"></div><p class="hint">We will send a 6-digit verification code to this number.</p></div>
+<div><label class="label">Email address</label><div class="input-group"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><input class="input" placeholder="you@example.com"></div></div>
+<div><label class="label">Password <span class="req">*</span></label><div class="input-group"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" class="input" placeholder="Minimum 8 characters"></div>
+<div class="flex gap-1 mt-2"><span class="h-1 flex-1 rounded-full bg-gold-400"></span><span class="h-1 flex-1 rounded-full bg-gold-400"></span><span class="h-1 flex-1 rounded-full bg-ink-100"></span><span class="h-1 flex-1 rounded-full bg-ink-100"></span></div>
+<p class="hint">Use 8+ characters with a mix of letters, numbers and symbols.</p></div>
+<div><label class="label">Confirm password <span class="req">*</span></label><div class="input-group"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input type="password" class="input" placeholder="Re-type your password"></div></div>
+<div><label class="label">Your city</label><select class="select"><option>Dhaka</option><option>Chattogram</option><option>Khulna</option><option>Rajshahi</option><option>Sylhet</option><option>Barishal</option><option>Rangpur</option><option>Mymensingh</option></select></div>
+<div><label class="label">Referral code (optional)</label><input class="input" placeholder="Enter a friend's code"></div>
+<div class="space-y-2.5"><label class="check"><input type="checkbox" checked>I agree to the <a href="terms.html" class="link">Terms of Service</a> and <a href="privacy-policy.html" class="link">Privacy Policy</a>.</label>
+<label class="check"><input type="checkbox" checked>Send me deals, vouchers and order updates by SMS and email.</label></div>
+<a href="otp-verify.html" class="btn btn-lg btn-primary btn-block">Create account <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></a></form>
+
+<div class="flex items-center gap-3 my-5"><span class="flex-1 h-px bg-[#e7e9ef]"></span><span class="text-[11.5px] text-ink-400 font-bold">OR CONTINUE WITH</span><span class="flex-1 h-px bg-[#e7e9ef]"></span></div>
+<div class="grid grid-cols-3 gap-2.5"><button class="btn btn-outline !px-2 text-[12.5px]"><span class="w-4 h-4 rounded-full bg-ink-200 inline-block"></span>Google</button><button class="btn btn-outline !px-2 text-[12.5px]"><span class="w-4 h-4 rounded-full bg-ink-200 inline-block"></span>Facebook</button><button class="btn btn-outline !px-2 text-[12.5px]"><span class="w-4 h-4 rounded-full bg-ink-200 inline-block"></span>Apple</button></div>
+<div class="mt-6 grid sm:grid-cols-2 gap-2.5">
+<a href="become-seller.html" class="p-3.5 rounded-xl border border-[#e7e9ef] hover:border-brand-200 flex items-center gap-2.5"><span class="w-9 h-9 rounded-lg bg-brand-50 text-brand-600 grid place-items-center shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16v12H4z"/><path d="M9 8V4h6v4"/></svg></span><div><p class="text-[12.5px] font-extrabold">Sell products</p><p class="text-[11px] text-ink-500">Open a shop</p></div></a>
+<a href="become-provider.html" class="p-3.5 rounded-xl border border-[#e7e9ef] hover:border-service-200 flex items-center gap-2.5"><span class="w-9 h-9 rounded-lg bg-service-50 text-service-600 grid place-items-center shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5 19 9l-9 9H5v-5z"/><path d="M13 6l5 5"/></svg></span><div><p class="text-[12.5px] font-extrabold">List a service</p><p class="text-[11px] text-ink-500">Get customers</p></div></a></div>
+</div></div></div>
+<script src="js/main.js"></script></body></html>

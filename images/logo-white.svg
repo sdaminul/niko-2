@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="44" viewBox="0 0 200 44" fill="none">
+  <rect x="0" y="4" width="36" height="36" rx="11" fill="#ff2525"/>
+  <path d="M10 26.5V17c0-.9.6-1.7 1.5-1.9l6-1.6c.3-.1.7-.1 1 0l6 1.6c.9.2 1.5 1 1.5 1.9v9.5c0 1.1-.9 2-2 2H12c-1.1 0-2-.9-2-2Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M15 28.5v-5h6v5" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>
+  <text x="46" y="28" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Haat<tspan fill="#ff6363">Bazar</tspan></text>
+</svg>
